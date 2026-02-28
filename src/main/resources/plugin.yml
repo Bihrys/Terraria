@@ -1,0 +1,4 @@
+name: Terraria
+version: '1.0-SNAPSHOT'
+main: org.exampl.terraria.Terraria
+api-version: '1.21'
