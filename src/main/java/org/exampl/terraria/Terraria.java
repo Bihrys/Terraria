@@ -6,12 +6,11 @@ public final class Terraria extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        getCommand("checkhouse").setExecutor(new HouseCommand());
+        getLogger().info("Terraria 动态房屋检测已加载");
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
     }
 }
