@@ -2,3 +2,6 @@ name: Terraria
 version: '1.0-SNAPSHOT'
 main: org.exampl.terraria.Terraria
 api-version: '1.21'
+commands:
+  checkhouse:
+    description: 动态检测房屋是否合法
