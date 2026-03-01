@@ -17,6 +17,7 @@
     </properties>
 
     <build>
+        <finalName>Terraria_1.21</finalName>
         <defaultGoal>clean package</defaultGoal>
         <plugins>
             <plugin>
